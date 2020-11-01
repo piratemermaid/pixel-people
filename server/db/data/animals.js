@@ -1125,8 +1125,700 @@ const animals = [
         season: null,
         categories: [],
         splice: ["Scorpion", "Trout"]
+    },
+    {
+        name: "Scorpion",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Pangolin", "Spider"]
+    },
+    {
+        name: "Toad",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Chameleon", "Snakehead Fish"]
+    },
+    {
+        name: "Albatross",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Buffalo", "Eagle"]
+    },
+    {
+        name: "Giant Anteater",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Elephant", "Mole"]
+    },
+    {
+        name: "Kangaroo",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Ostrich", "Squirrel"]
+    },
+    {
+        name: "Sailfish",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Snakehead Fish", "Narwhal"]
+    },
+    {
+        name: "Piranha",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Carp", "Hyena"]
+    },
+    {
+        name: "Vulture",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Piranha", "Turkey"]
+    },
+    {
+        name: "Manatee",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Cow", "Dolphin"]
+    },
+    {
+        name: "Wooly Rhinoceros",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Wooly Mammoth", "Rhinoceros"]
+    },
+    {
+        name: "Beringian Wolf",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Direwolf", "Arctic Fox"]
+    },
+    {
+        name: "Monitor Lizard",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Gecko", "Crocodile"]
+    },
+    {
+        name: "Armadillo",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Pangolin", "Snail"]
+    },
+    {
+        name: "Gazelle",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Stag", "Ostrich"]
+    },
+    {
+        name: "Clownfish",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Carp", "Zebra"]
+    },
+    {
+        name: "Alligator",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Crocodile", "Wild Boar"]
+    },
+    {
+        name: "Pygmy Marmoset",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Spider Monkey", "Squirrel"]
+    },
+    {
+        name: "Pygmy Possum",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Mouse", "Opossum"]
+    },
+    {
+        name: "Seahorse",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Horse", "Snakehead Fish"]
+    },
+    {
+        name: "Humboldt Squid",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Octopus", "Sperm Whale"]
+    },
+    {
+        name: "Drunken Monkey",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Moose", "Spider Monkey"]
+    },
+    {
+        name: "Encantado",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Dolphin", "Chameleon"]
+    },
+    {
+        name: "Myrmecoleon",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Ant", "Lion"]
+    },
+    {
+        name: "Feng Huang",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Hydra", "Peacock"]
+    },
+    {
+        name: "Shug Monkey",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Belgian Shepherd", "Spider Monkey"]
+    },
+    {
+        name: "Buraq",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Pegasus", "Sphinx"]
+    },
+    {
+        name: "Hippocamp",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Panther", "Porcupine"]
+    },
+    {
+        name: "Mishipeshu",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Panther", "Porcupine"]
+    },
+    {
+        name: "Shachihoko",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Carp", "Tiger"]
+    },
+    {
+        name: "Bunyip",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Sausage Dog", "Sea Lion"]
+    },
+    {
+        name: "Shen",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Snail", "Dragon"]
+    },
+    {
+        name: "Taweret",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Afanc", "Hippopotamus"]
+    },
+    {
+        name: "Kobalt Kong",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Blue Whale", "Yeti"]
+    },
+    {
+        name: "Xuan Wu",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Tortoise", "Rattlesnake"]
+    },
+    {
+        name: "Taniwha",
+        tier: 4,
+        season: null,
+        categories: [],
+        splice: ["Beluga Whale", "Gecko"]
+    },
+    {
+        name: "Wyvern",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Dragon", "Sha"]
+    },
+    {
+        name: "Manta Ray",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Panda", "Stingray"]
+    },
+    {
+        name: "Praying Mantis",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Scorpion", "Spider"]
+    },
+    {
+        name: "Crab",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Scorpion", "Tortoise"]
+    },
+    {
+        name: "Honey Bee",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Scorpion", "Parrot"]
+    },
+    {
+        name: "Swallow",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Pigeon", "Ant"]
+    },
+    {
+        name: "Halibut",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Mole", "Stingray"]
+    },
+    {
+        name: "Lionfish",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Carp", "Stingray"]
+    },
+    {
+        name: "Komodo Dragon",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Monitor Lizard", "Rattlesnake"]
+    },
+    {
+        name: "Giant Centipede",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Ant", "Scorpion"]
+    },
+    {
+        name: "Bluefin Tuna",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Sailfish", "Cow"]
+    },
+    {
+        name: "Sunfish",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Golden Goose", "Sailfish"]
+    },
+    {
+        name: "Skunk",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Humboldt Squid", "Raccoon"]
+    },
+    {
+        name: "Anglerfish",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Carp", "Humboldt Squid"]
+    },
+    {
+        name: "Titanoboa",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Beringian Wolf", "Python"]
+    },
+    {
+        name: "Pizza Rat",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Alligator", "Pigeon"]
+    },
+    {
+        name: "Black Sheep",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Pug", "Pygmy Possum"]
+    },
+    {
+        name: "Kirin",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Bicorn", "Wyvern"]
+    },
+    {
+        name: "Peryton",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Albatross", "Stag"]
+    },
+    {
+        name: "Kelpie",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Hippocamp", "Sphinx"]
+    },
+    {
+        name: "Aqrabuamelu",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Chimpanzee", "Scorpion"]
+    },
+    {
+        name: "Cockatrice",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Bat", "Feng Huang"]
+    },
+    {
+        name: "Tengu",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Buraq", "Chamrosh"]
+    },
+    {
+        name: "Uchchaihshravas",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Buraq", "Hydra"]
+    },
+    {
+        name: "Manticore",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Scorpion", "Sphinx"]
+    },
+    {
+        name: "Ramidreju",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Rattlesnake", "Weasel"]
+    },
+    {
+        name: "Baku",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Elephant", "Taweret"]
+    },
+    {
+        name: "Cipactli",
+        tier: 5,
+        season: null,
+        categories: [],
+        splice: ["Toad", "Afanc"]
+    },
+    {
+        name: "Peluda",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Mishipeshu", "Rattlesnake"]
+    },
+    {
+        name: "Pelican",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Albatross", "Kangaroo"]
+    },
+    {
+        name: "Hammerhead Shark",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Snakehead Fish", "Praying Mantis"]
+    },
+    {
+        name: "Great White Shark",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Hammerhead Shark", "Polar Bear"]
+    },
+    {
+        name: "Tiger Shark",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Hammerhead Shark", "Tiger"]
+    },
+    {
+        name: "Hummingbird",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Honey Bee", "Swallow"]
+    },
+    {
+        name: "Scarab",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Crab", "Honey Bee"]
+    },
+    {
+        name: "Butterfly",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Honey Bee", "Peacock"]
+    },
+    {
+        name: "Megalodon",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Great White Shark", "Sabretooth"]
+    },
+    {
+        name: "Ladybird",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Lovebird", "Scarab"]
+    },
+    {
+        name: "Stag Beetle",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Scarab", "Stag"]
+    },
+    {
+        name: "Field Grasshopper",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Kangaroo", "Praying Mantis"]
+    },
+    {
+        name: "Wasp",
+        tier: null,
+        season: null,
+        categories: [],
+        splice: ["Honey Bee", "Scorpion"]
+    },
+    {
+        name: "King Cobra",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Rattlesnake", "Humboldt Squid"]
+    },
+    {
+        name: "Basking Shark",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Great White Shark", "Hippopotamus"]
+    },
+    {
+        name: "Whale Shark",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Basking Shark", "Blue Whale"]
+    },
+    {
+        name: "Pygmy Owl",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Hummingbird", "Owl"]
+    },
+    {
+        name: "Policy Hawk",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Tengu", "Wild Boar"]
+    },
+    {
+        name: "Program Bug",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Mouse", "Stag Beetle"]
+    },
+    {
+        name: "One Trick Pony",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Buraq", "Loch Ness Monster"]
+    },
+    {
+        name: "Social Butterfly",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Butterfly", "Golden Retriever"]
+    },
+    {
+        name: "Top Dawg",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Ushi Oni", "Pug"]
+    },
+    {
+        name: "Bleached Hyena",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Anansi", "Anansi"]
+    },
+    {
+        name: "Cerynitis",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Golden Goose", "Peryton"]
+    },
+    {
+        name: "Tsuchigumo",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Anansi", "Shachihoko"]
+    },
+    {
+        name: "Anansi",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Aqrabuamelu", "Black Spider"]
+    },
+    {
+        name: "Simurgh",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Chamrosh", "Cockatrice"]
+    },
+    {
+        name: "Kutabe",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Ratatoskr", "Ushi Oni"]
+    },
+    {
+        name: "Ushi Oni",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Bicorn", "Tsuchigumo"]
+    },
+    {
+        name: "Adlet",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Bunyip", "Shug Monkey"]
+    },
+    {
+        name: "Kraken",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Lusca", "Shen"]
+    },
+    {
+        name: "Lusca",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Megalodon", "Octopus"]
+    },
+    {
+        name: "Raiju",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Electric Eel", "Ramidreju"]
+    },
+    {
+        name: "Behemoth",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Baku", "Kutabe"]
+    },
+    {
+        name: "Quetzalcoatl",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Cockatrice", "Peacock"]
+    },
+    {
+        name: "Tarasque",
+        tier: 6,
+        season: null,
+        categories: [],
+        splice: ["Kirin", "Manticore"]
     }
-    // { name: "", tier: 4, season: null, categories: [], splice: ["", ""] },
 ];
 
 let animalsCategories = [];
