@@ -376,8 +376,48 @@ const animals = [
         season: null,
         categories: [mammal, bear, tasty, mythical, small],
         splice: ["Brown Bear", "Unicorn"]
-    }
-    // ,{ name: "", tier: 2, season: null, categories: [], splice: [] }
+    },
+    {
+        name: "Fox",
+        tier: 2,
+        season: null,
+        categories: [mammal, wild, carnivore],
+        splice: ["Wolf", "Chow Chow"]
+    },
+    {
+        name: "Wolf",
+        tier: 2,
+        season: null,
+        categories: [mammal, special, wild, carnivore, snow],
+        splice: ["Stag", "Dragon"]
+    },
+    {
+        name: "Orangutan",
+        tier: 2,
+        season: null,
+        categories: [mammal, primate, wild, omnivore, arboreal],
+        splice: ["Brown Bear", "Octopus"]
+    },
+    {
+        name: "Gorilla",
+        tier: 2,
+        season: null,
+        categories: [mammal, primate, wild, omnivore, arboreal, strong],
+        splice: ["Chimpanzee", "Elephant"]
+    },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] },
+    { name: "", tier: 2, season: null, categories: [], splice: [] }
 ];
 
 let animalsCategories = [];

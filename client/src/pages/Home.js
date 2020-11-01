@@ -9,7 +9,8 @@ class Home extends Component {
         this.state = {
             selected: null,
             displaySplices: [],
-            highlightedAnimal: null
+            highlightedAnimal: null,
+            viewCategories: false
         };
     }
 
@@ -44,9 +45,23 @@ class Home extends Component {
         }
     }
 
+    getCategory(name) {
+        const animalInfo = _.find(this.props.animals, { name });
+        if (animalInfo) {
+            // TODO: return category with least amt of animals (for quick search)
+            return ` (${animalInfo.categories.join(", ")}) `;
+        } else {
+            return null;
+        }
+    }
+
     render() {
         const { animals, isLoading } = this.props;
-        const { displaySplices, highlightedAnimal } = this.state;
+        const {
+            displaySplices,
+            highlightedAnimal,
+            viewCategories
+        } = this.state;
 
         if (!isLoading) {
             const selectOptions = animals.map(({ name }) => {
@@ -55,7 +70,24 @@ class Home extends Component {
 
             return (
                 <div>
-                    <h1>Animal Splicing</h1>
+                    <div className="row" style={{ marginBottom: 0 }}>
+                        <p className="right" style={{ marginBottom: 0 }}>
+                            View Categories:{" "}
+                            <span
+                                className="hover-cursor"
+                                onClick={() =>
+                                    this.setState({
+                                        viewCategories: !viewCategories
+                                    })
+                                }
+                            >
+                                {viewCategories ? "ON" : "OFF"}
+                            </span>
+                        </p>
+                    </div>
+                    <div className="row">
+                        <h1>Animal Splicing</h1>
+                    </div>
                     <div className="row">
                         <div className="col s6 offset-s3 left">
                             <Select
@@ -95,6 +127,9 @@ class Home extends Component {
                                     >
                                         {splice1 || "?"}
                                     </span>{" "}
+                                    {viewCategories
+                                        ? this.getCategory(splice1)
+                                        : null}
                                     +{" "}
                                     <span
                                         className="hover-cursor"
@@ -104,6 +139,9 @@ class Home extends Component {
                                     >
                                         {splice2 || "?"}
                                     </span>
+                                    {viewCategories
+                                        ? this.getCategory(splice1)
+                                        : null}
                                 </div>
                             );
                         })}
