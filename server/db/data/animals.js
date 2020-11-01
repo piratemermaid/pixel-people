@@ -162,7 +162,7 @@ const animals = [
         splice: ["Harp Seal", "Unicorn"]
     },
     {
-        name: "Belgian Shepard",
+        name: "Belgian Shepherd",
         tier: 1,
         season: all,
         categories: [dog, farm, mammal, pet]
@@ -1068,7 +1068,7 @@ const animals = [
         tier: 3,
         season: null,
         categories: [],
-        splice: ["Belgian Sheperd", "Eagle"]
+        splice: ["Belgian Shepherd", "Eagle"]
     },
     {
         name: "Bicorn",
