@@ -5,3 +5,11 @@
 .left {
     text-align: left;
 }
+
+.highlighted {
+    font-weight: bold;
+}
+
+.hover-cursor:hover {
+    cursor: pointer;
+}
