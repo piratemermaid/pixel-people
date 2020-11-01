@@ -11,7 +11,10 @@ const Animal = bookshelf.model("Animal", {
 });
 
 const Category = bookshelf.model("Category", {
-    tableName: "categories"
+    tableName: "categories",
+    animals() {
+        return this.belongsToMany("Animal");
+    }
 });
 
 const Combination = bookshelf.model("Combination", {
@@ -24,4 +27,4 @@ const Combination = bookshelf.model("Combination", {
     }
 });
 
-module.exports = { Animal };
+module.exports = { Animal, Category };

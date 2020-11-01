@@ -9,7 +9,7 @@ class App extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { animals: [], isLoading: true };
+        this.state = { animals: [], categoryAmts: [], isLoading: true };
     }
 
     async componentDidMount() {
@@ -18,7 +18,15 @@ class App extends Component {
             url: "/api/app/animals"
         })
             .then((res) => {
-                this.setState({ animals: res.data, isLoading: false });
+                this.setState({ animals: res.data });
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+
+        await axios({ method: "get", url: "/api/app/category_amts" })
+            .then((res) => {
+                this.setState({ categoryAmts: res.data, isLoading: false });
             })
             .catch((err) => {
                 console.log(err);
@@ -26,7 +34,7 @@ class App extends Component {
     }
 
     render() {
-        const { animals, isLoading } = this.state;
+        const { animals, categoryAmts, isLoading } = this.state;
 
         return (
             <div className="App">
@@ -36,7 +44,11 @@ class App extends Component {
                             exact
                             path="/"
                             render={() => (
-                                <Home animals={animals} isLoading={isLoading} />
+                                <Home
+                                    animals={animals}
+                                    categoryAmts={categoryAmts}
+                                    isLoading={isLoading}
+                                />
                             )}
                         />
                     </Switch>

@@ -32,4 +32,16 @@ router.get("/animals", async (req, res) => {
     );
 });
 
+router.get("/category_amts", async (req, res) => {
+    const categories = await models.Category.fetchAll({
+        withRelated: ["animals"]
+    });
+
+    res.send(
+        categories.toJSON().map(({ name, animals }) => {
+            return { name, amt: animals.length };
+        })
+    );
+});
+
 module.exports = router;

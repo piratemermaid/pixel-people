@@ -10,7 +10,7 @@ class Home extends Component {
             selected: null,
             displaySplices: [],
             highlightedAnimal: null,
-            viewCategories: false
+            viewCategories: true
         };
     }
 
@@ -46,10 +46,15 @@ class Home extends Component {
     }
 
     getCategory(name) {
-        const animalInfo = _.find(this.props.animals, { name });
+        const { animals, categoryAmts } = this.props;
+        const animalInfo = _.find(animals, { name });
         if (animalInfo) {
-            // TODO: return category with least amt of animals (for quick search)
-            return ` (${animalInfo.categories.join(", ")}) `;
+            const categoriesSorted = animalInfo.categories.sort((a, b) => {
+                const catA = _.find(categoryAmts, { name: a });
+                const catB = _.find(categoryAmts, { name: b });
+                return catA.amt - catB.amt;
+            });
+            return ` (${categoriesSorted[0]}) `;
         } else {
             return null;
         }
@@ -140,7 +145,7 @@ class Home extends Component {
                                         {splice2 || "?"}
                                     </span>
                                     {viewCategories
-                                        ? this.getCategory(splice1)
+                                        ? this.getCategory(splice2)
                                         : null}
                                 </div>
                             );
