@@ -33,7 +33,7 @@ const frost = "Frost";
 const swell = "Swell";
 const thaw = "Thaw";
 
-module.exports = [
+const animals = [
     {
         name: "Tabby Cat",
         tier: 1,
@@ -379,3 +379,21 @@ module.exports = [
     }
     // ,{ name: "", tier: 2, season: null, categories: [], splice: [] }
 ];
+
+let animalsCategories = [];
+let animalsSplice = [];
+for (let animal of animals) {
+    const { name, categories, splice } = animal;
+    for (let i in categories) {
+        animalsCategories.push({ animal: name, category: categories[i] });
+    }
+    if (splice) {
+        animalsSplice.push({
+            animal: name,
+            splice1: splice[0],
+            splice2: splice[1]
+        });
+    }
+}
+
+module.exports = { animals, animalsCategories, animalsSplice };
