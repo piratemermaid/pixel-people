@@ -9,7 +9,7 @@ class App extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {};
+        this.state = { animals: [], isLoading: true };
     }
 
     async componentDidMount() {
@@ -18,8 +18,7 @@ class App extends Component {
             url: "/api/app/animals"
         })
             .then((res) => {
-                console.log(res.data);
-                this.setState({ data: res.data });
+                this.setState({ animals: res.data, isLoading: false });
             })
             .catch((err) => {
                 console.log(err);
@@ -27,11 +26,19 @@ class App extends Component {
     }
 
     render() {
+        const { animals, isLoading } = this.state;
+
         return (
             <div className="App">
                 <BrowserRouter>
                     <Switch>
-                        <Route exact path="/" render={() => <Home />} />
+                        <Route
+                            exact
+                            path="/"
+                            render={() => (
+                                <Home animals={animals} isLoading={isLoading} />
+                            )}
+                        />
                     </Switch>
                 </BrowserRouter>
             </div>
