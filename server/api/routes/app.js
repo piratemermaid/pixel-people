@@ -10,6 +10,15 @@ router.get("/animals", async (req, res) => {
 
     res.send(
         animals.toJSON().map(({ name, tier, season, categories, splice }) => {
+            let splice1Name = null;
+            let splice2Name = null;
+            if (splice[0] && splice[0].splice1) {
+                splice1Name = splice[0].splice1.name;
+            }
+            if (splice[0] && splice[0].splice2) {
+                splice2Name = splice[0].splice2.name;
+            }
+
             return {
                 name,
                 tier,
@@ -17,18 +26,7 @@ router.get("/animals", async (req, res) => {
                 categories: categories.map(({ name }) => {
                     return name;
                 }),
-                splice: splice.map(({ splice1, splice2 }) => {
-                    // TODO: remove logic when data is complete
-                    let splice1Name = null;
-                    let splice2Name = null;
-                    if (splice1) {
-                        splice1Name = splice1.name;
-                    }
-                    if (splice2) {
-                        splice2Name = splice2.name;
-                    }
-                    return [splice1Name, splice2Name];
-                })
+                splice: [splice1Name, splice2Name]
             };
         })
     );
