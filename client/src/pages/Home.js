@@ -25,7 +25,7 @@ class Home extends Component {
                     splice2: animalInfo.splice[1]
                 }
             ],
-            highlightedAnimal: null
+            highlightedAnimal: name
         });
     };
 
