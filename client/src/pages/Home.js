@@ -48,7 +48,7 @@ class Home extends Component {
     getCategory(name) {
         const { animals, categoryAmts } = this.props;
         const animalInfo = _.find(animals, { name });
-        if (animalInfo) {
+        if (animalInfo && animalInfo.categories.length > 0) {
             const categoriesSorted = animalInfo.categories.sort((a, b) => {
                 const catA = _.find(categoryAmts, { name: a });
                 const catB = _.find(categoryAmts, { name: b });
