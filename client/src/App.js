@@ -15,9 +15,10 @@ class App extends Component {
     async componentDidMount() {
         await axios({
             method: "get",
-            url: "/api/app"
+            url: "/api/app/animals"
         })
             .then((res) => {
+                console.log(res.data);
                 this.setState({ data: res.data });
             })
             .catch((err) => {
