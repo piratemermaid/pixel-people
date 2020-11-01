@@ -430,609 +430,609 @@ const animals = [
         name: "Orca",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic, wild, snow, carnivore],
         splice: ["Blue Whale", "Panda"]
     },
     {
         name: "Owl",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, small, arboreal, snow],
         splice: ["Chicken", "Bat"]
     },
     {
         name: "Macaw",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, pet, arboreal],
         splice: ["Parrot", "Parrot"]
     },
     {
         name: "Toucan",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, arboreal],
         splice: ["Parrot", "Rhinoceros"]
     },
     {
         name: "Eagle",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, special, fast],
         splice: ["Lion", "Parrot"]
     },
     {
         name: "Raccoon",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, omnivore],
         splice: ["Zebra", "Red Panda"]
     },
     {
         name: "Red Panda",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, arboreal],
         splice: ["Panda", "Fox"]
     },
     {
         name: "Goat",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, farm, tasty, herbivore],
         splice: ["Donkey", "Horse"]
     },
     {
         name: "Sheep",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, farm, tasty, herbivore],
         splice: ["Goat", "Poodle"]
     },
     {
         name: "Mouse",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, pet, small],
         splice: ["Squirrel", "Snail"]
     },
     {
         name: "Spider",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [insect, small, arboreal],
         splice: ["Snake", "Mouse"]
     },
     {
         name: "Bat",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, special, small],
         splice: ["Owl", "Mouse"]
     },
     {
         name: "Dodo",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, special],
         splice: ["Chicken", "Unicorn"]
     },
     {
         name: "Dragon",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [reptile, mythical, special],
         splice: ["Unicorn", "Snake"]
     },
     {
         name: "Stag",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, special, herbivore, wild],
         splice: ["Moose", "Bull"]
     },
     {
         name: "Trout",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [aquatic, special, small],
         splice: ["Mouse", "Blue Whale"]
     },
     {
         name: "Turkey",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, farm, tasty],
         splice: ["Chicken", "Pig"]
     },
     {
         name: "Squirrel",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, arboreal],
         splice: ["Mouse", "Fox"]
     },
     {
         name: "Flamingo",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird],
         splice: ["Duck", "Fox"]
     },
     {
         name: "Otter",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic],
         splice: ["Trout", "Squirrel"]
     },
     {
         name: "Sea Lion",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic],
         splice: ["Lion", "Otter"]
     },
     {
         name: "Hyena",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, wild, carnivore, scavenger],
         splice: ["Lion", "Wolf"]
     },
     {
         name: "Crocodile",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [reptile, wild, carnivore],
         splice: ["Snake", "Chameleon"]
     },
     {
         name: "Platypus",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic],
         splice: ["Duck", "Eurasian Beaver"]
     },
     {
         name: "Fearful Owl",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, small, arboreal],
         splice: ["Owl", "Panther"]
     },
     {
         name: "Black Mare",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, herbivore, fast, strong],
         splice: ["Horse", "Panther"]
     },
     {
         name: "Raven",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, small, arboreal, fast],
         splice: ["Toucan", "Bat"]
     },
     {
         name: "Black Spider",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [insect, small, arboreal],
         splice: ["Spider", "Bat"]
     },
     {
         name: "Chocolate Rabbit",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, farm, small, pet, fast],
         splice: ["Rabbit", "Gummy Bear"]
     },
     {
         name: "Mule Deer",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, wild, herbivore],
         splice: ["Donkey", "Mousedeer"]
     },
     {
         name: "Golden Goose",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, small],
         splice: ["Donkey", "Duck"]
     },
     {
         name: "White Bass",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [aquatic, small],
         splice: ["Harp Seal", "Trout"]
     },
     {
         name: "Mute Swan",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird],
         splice: ["Lovebird", "Duck"]
     },
     {
         name: "Lovebird",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, small, arboreal, fast],
         splice: ["Parrot", "Flamingo"]
     },
     {
         name: "Eurasian Beaver",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic],
         splice: ["Mouse", "Platypus"]
     },
     {
         name: "French Angelfish",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [aquatic, small],
         splice: ["White Bass", "Mute Swan"]
     },
     {
         name: "Arctic Fox",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, wild, carnivore, snow],
         splice: ["Fox", "Polar Bear"]
     },
     {
         name: "Beluga Whale",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic, wild, snow],
         splice: ["Blue Whale", "Polar Bear"]
     },
     {
         name: "Chinstrap Penguin",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [bird, aquatic],
         splice: ["Penguin", "Penguin"]
     },
     {
         name: "Reindeer",
         tier: 2,
         season: null,
-        categories: [],
+        categories: [mammal, special, herbivore, wild, snow],
         splice: ["Moose", "Moose"]
     },
     {
         name: "Pegasus",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Horse", "Eagle"]
     },
     {
         name: "Gryphon",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Lion", "Eagle"]
     },
     {
         name: "Phoenix",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret, bird],
         splice: ["Dragon", "Flamingo"]
     },
     {
         name: "Hydra",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Snake", "Cerberus"]
     },
     {
         name: "Cerberus",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Wolf", "Direwolf"]
     },
     {
         name: "Oriental Dragon",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Dragon", "Panda"]
     },
     {
         name: "Loch Ness Monster",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Orca", "Snake"]
     },
     {
         name: "Yeti",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Polar Bear", "Gorilla"]
     },
     {
         name: "Drop Bear",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret, arboreal],
         splice: ["Koala", "Red Panda"]
     },
     {
         name: "Merlion",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret, aquatic],
         splice: ["Lion", "Trout"]
     },
     {
         name: "Rocket Cat",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret, cat],
         splice: ["Tom Cat", "Oriental Dragon"]
     },
     {
         name: "Cthulu",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret, aquatic],
         splice: ["Octopus", "Dragon"]
     },
     {
         name: "Sabertooth",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [carnivore, extinct, secret],
         splice: ["Tiger", "Elephant"]
     },
     {
         name: "Direwolf",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [carnivore, extinct, secret, snow],
         splice: ["Wolf", "Tiger"]
     },
     {
         name: "Sphinx",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Lion", "Chimpanzee"]
     },
     {
         name: "Wooly Mammoth",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [extinct, secret],
         splice: ["Elephant", "Sheep"]
     },
     {
         name: "Chimera",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Lion", "Goat"]
     },
     {
         name: "Chupacabra",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Panther", "Crocodile"]
     },
     {
         name: "Hippogryph",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical, secret],
         splice: ["Goat", "Eagle"]
     },
     {
         name: "Peacock",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [bird, wild, fast],
         splice: ["Macaw", "Flamingo"]
     },
     {
         name: "Gecko",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [reptile, arboreal],
         splice: ["Crocodile", "Chameleon"]
     },
     {
         name: "Porcupine",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, wild, herbivore],
         splice: ["Raccoon", "Tortoise"]
     },
     {
         name: "Carp",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [aquatic, small],
         splice: ["Trout", "Macaw"]
     },
     {
         name: "Pangolin",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, wild],
         splice: ["Tortoise", "	Squirrel"]
     },
     {
         name: "Buffalo",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, farm, herbivore, strong],
         splice: ["Bull", "	Brown Bear"]
     },
     {
         name: "Snakehead Fish",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [aquatic, carnivore],
         splice: ["Trout", "Snake"]
     },
     {
         name: "Weasel",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, wild, arboreal, fast],
         splice: ["Snake", "Squirrel"]
     },
     {
         name: "Ant",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [insect, small],
         splice: ["Spider", "Stag"]
     },
     {
         name: "Mole",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [small, wild],
         splice: ["Ant", "Squirrel"]
     },
     {
         name: "Rattlesnake",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [reptile],
         splice: ["Snake", "Spider"]
     },
     {
         name: "Spider Monkey",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, primate, wild, omnivore, arboreal],
         splice: ["Spider", "Chimpanzee"]
     },
     {
         name: "Ostrich",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [bird, wild],
         splice: ["Turkey", "Cheetah"]
     },
     {
         name: "Tasmanian Devil",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, carnivore, wild, small],
         splice: ["Hyena", "Koala"]
     },
     {
         name: "Lar Gibbon",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, primate, wild, omnivore, arboreal],
         splice: ["Gorilla", "Red Panda"]
     },
     {
         name: "Three Toed Sloth",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, herbivore],
         splice: ["Snail", "Koala"]
     },
     {
         name: "Pigeon",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [bird, small],
         splice: ["Mouse", "Parrot"]
     },
     {
         name: "Black Rhinoceros",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [extinct, mammal, wild, herbivore, strong],
         splice: ["Rhinoceros", "Black Mare"]
     },
     {
         name: "Flying Fox",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, wild, small],
         splice: ["Squirrel", "Bat"]
     },
     {
         name: "Sperm Whale",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic, wild],
         splice: ["Orca", "Bull"]
     },
     {
         name: "Humpback Whale",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic, wild],
         splice: ["Dolphin", "Blue Whale"]
     },
     {
         name: "Puffin",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [bird, small, wild],
         splice: ["Penguin", "Toucan"]
     },
     {
         name: "Wild Boar",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, wild, omnivore],
         splice: ["Pig", "Bull"]
     },
     {
         name: "Tarantula",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [wild, small],
         splice: ["Spider", "Gorilla"]
     },
     {
         name: "Mongoose",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic, wild],
         splice: ["Squirrel", "Tiger"]
     },
     {
         name: "Opossum",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, wild, small, omnivore],
         splice: ["Koala", "Squirrel"]
     },
     {
         name: "Pygmy Hippo",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, wild, herbivore],
         splice: ["Hippo", "Pig"]
     },
     {
         name: "Python",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [reptile],
         splice: ["Snake", "Elephant"]
     },
     {
@@ -1046,21 +1046,21 @@ const animals = [
         name: "Sacred Cow",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [secret, farm],
         splice: ["Donkey", "Elephant"]
     },
     {
         name: "Cold Turkey",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [secret, bird],
         splice: ["Turkey", "Arctic Fox"]
     },
     {
         name: "Sausage Dog",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [secret, tasty],
         splice: ["Corgi", "Giraffe"]
     },
     {
@@ -1074,70 +1074,70 @@ const animals = [
         name: "Bicorn",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Cow", "Panther"]
     },
     {
         name: "Sha",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Wolf", "Crocodile"]
     },
     {
         name: "Capricornus",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Goat", "French Angelfish"]
     },
     {
         name: "Ratatoskr",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Narwhal", "Squirrel"]
     },
     {
         name: "Afanc",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Crocodile", "Eurasian Beaver"]
     },
     {
         name: "Dolphin",
         tier: 3,
         season: null,
-        categories: [],
+        categories: [mammal, aquatic, wild, carnivore],
         splice: ["Orca", "Sea Lion"]
     },
     {
         name: "Electric Eel",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [aquatic, carnivore],
         splice: ["Snake", "Stingray"]
     },
     {
         name: "Stingray",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [aquatic, carnivore],
         splice: ["Scorpion", "Trout"]
     },
     {
         name: "Scorpion",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [small, wild, carnivore],
         splice: ["Pangolin", "Spider"]
     },
     {
         name: "Toad",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [reptile, small],
         splice: ["Chameleon", "Snakehead Fish"]
     },
     {
@@ -1165,21 +1165,21 @@ const animals = [
         name: "Sailfish",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [aquatic, carnivore],
         splice: ["Snakehead Fish", "Narwhal"]
     },
     {
         name: "Piranha",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [aquatic, carnivore, fast, small],
         splice: ["Carp", "Hyena"]
     },
     {
         name: "Vulture",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [bird, fast],
         splice: ["Piranha", "Turkey"]
     },
     {
@@ -1193,21 +1193,21 @@ const animals = [
         name: "Wooly Rhinoceros",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [extinct, mammal, wild, herbivore, strong, snow],
         splice: ["Wooly Mammoth", "Rhinoceros"]
     },
     {
         name: "Beringian Wolf",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [extinct, wild, mammal, snow],
         splice: ["Direwolf", "Arctic Fox"]
     },
     {
         name: "Monitor Lizard",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [reptile],
         splice: ["Gecko", "Crocodile"]
     },
     {
@@ -1221,7 +1221,7 @@ const animals = [
         name: "Gazelle",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mammal, wild, fast, herbivore],
         splice: ["Stag", "Ostrich"]
     },
     {
@@ -1249,7 +1249,7 @@ const animals = [
         name: "Pygmy Possum",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mammal, small, omnivore],
         splice: ["Mouse", "Opossum"]
     },
     {
@@ -1263,21 +1263,21 @@ const animals = [
         name: "Humboldt Squid",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mollusc, aquatic],
         splice: ["Octopus", "Sperm Whale"]
     },
     {
         name: "Drunken Monkey",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [secret, primate],
         splice: ["Moose", "Spider Monkey"]
     },
     {
         name: "Encantado",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Dolphin", "Chameleon"]
     },
     {
@@ -1305,7 +1305,7 @@ const animals = [
         name: "Buraq",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Pegasus", "Sphinx"]
     },
     {
@@ -1319,35 +1319,35 @@ const animals = [
         name: "Mishipeshu",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Panther", "Porcupine"]
     },
     {
         name: "Shachihoko",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Carp", "Tiger"]
     },
     {
         name: "Bunyip",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Sausage Dog", "Sea Lion"]
     },
     {
         name: "Shen",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Snail", "Dragon"]
     },
     {
         name: "Taweret",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Afanc", "Hippopotamus"]
     },
     {
@@ -1361,14 +1361,14 @@ const animals = [
         name: "Xuan Wu",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Tortoise", "Rattlesnake"]
     },
     {
         name: "Taniwha",
         tier: 4,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Beluga Whale", "Gecko"]
     },
     {
@@ -1410,7 +1410,7 @@ const animals = [
         name: "Swallow",
         tier: 5,
         season: null,
-        categories: [],
+        categories: [bird, small, wild],
         splice: ["Pigeon", "Ant"]
     },
     {
@@ -1445,7 +1445,7 @@ const animals = [
         name: "Bluefin Tuna",
         tier: 5,
         season: null,
-        categories: [],
+        categories: [aquatic, tasty],
         splice: ["Sailfish", "Cow"]
     },
     {
@@ -1564,7 +1564,7 @@ const animals = [
         name: "Cipactli",
         tier: 5,
         season: null,
-        categories: [],
+        categories: [mythical],
         splice: ["Toad", "Afanc"]
     },
     {
@@ -1662,7 +1662,7 @@ const animals = [
         name: "King Cobra",
         tier: 6,
         season: null,
-        categories: [],
+        categories: [reptile],
         splice: ["Rattlesnake", "Humboldt Squid"]
     },
     {
@@ -1704,7 +1704,7 @@ const animals = [
         name: "One Trick Pony",
         tier: 6,
         season: null,
-        categories: [],
+        categories: [secret, herbivore],
         splice: ["Buraq", "Loch Ness Monster"]
     },
     {
