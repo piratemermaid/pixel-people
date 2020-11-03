@@ -1313,7 +1313,7 @@ const animals = [
         tier: 4,
         season: null,
         categories: [],
-        splice: ["Panther", "Porcupine"]
+        splice: ["Black Mare", "Seahorse"]
     },
     {
         name: "Mishipeshu",
