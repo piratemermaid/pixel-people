@@ -117,8 +117,8 @@ const animals = [
         name: "Snail",
         tier: 1,
         season: all,
-        categories: [herbivore, reptile, pet, small],
-        splice: ["Snake,Tortoise"]
+        categories: [mollusc, small],
+        splice: ["Snake", "Tortoise"]
     },
     {
         name: "Parrot",
@@ -872,7 +872,7 @@ const animals = [
         tier: 3,
         season: null,
         categories: [mammal, wild],
-        splice: ["Tortoise", "	Squirrel"]
+        splice: ["Tortoise", "Squirrel"]
     },
     {
         name: "Buffalo",
